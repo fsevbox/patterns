@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+barServiceUrl: http://localhost:8081/
+fooServiceUrl: http://localhost:8082/
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: foo
+#          uri: http://localhost:8082/
+#          predicates:
+#            - Path=/foo/**
+#        - id: bar
+#          uri: http://localhost:8081/
+#          predicates:
+#            - Path=/bar/**
+
+
