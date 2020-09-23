@@ -1,4 +1,4 @@
-#api-gateway
+# api-gateway
 
 Gateway implementation using `spring-cloud-gateway`:
 
